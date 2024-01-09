@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { fetchWeather } from "./api/fetchWeather";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   const [query, setQuery] = useState("");
